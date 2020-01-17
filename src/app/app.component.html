@@ -1,0 +1,8 @@
+<button mat-button (click)="getChampionRotation()">Click me!</button>
+
+<mat-form-field appearance="outline" [formGroup]="form">
+    <input matInput placeholder="Name of Summoner" name="summonerName" formControlName="summonerName">
+</mat-form-field>
+<button mat-button (click)="getSummonerDetails()">Get Summoner Details</button>
+<button mat-button (click)="getChampionMastery()">Get Champion Masteries</button>
+<p id="data"></p>
